@@ -117,6 +117,20 @@ def make_move(player, board):
 
 
 def check_win_horizontal(board):
+    '''check horizontally win condition
+    
+    3 consecutive X's or O's in a row result in win
+    
+    Parameters
+    ----------
+    board: list
+        The board with X, O and unoccupied postion
+    
+    Returns
+    -------
+    int
+        Player ID of the winner. 0 means no winner found.
+    '''
     # TODO: write docstring
     if (board[0] != 0 and
         board[0] == board[1] and
@@ -134,6 +148,20 @@ def check_win_horizontal(board):
 
 
 def check_win_vertical(board):
+    '''check veritical win condition
+    
+    3 consecutive X's or O's in a column result in win
+    
+    Parameters
+    ----------
+    board: list
+        The board with X, O and unoccupied postion
+        
+    Returns
+    -------
+    int
+        Player ID of the winner. 0 means no winner found.
+    '''
     # TODO: write docstring
     # TODO: implement function
     if (board[0] != 0 and
@@ -152,6 +180,20 @@ def check_win_vertical(board):
 
 
 def check_win_diagonal(board):
+    '''check diagonal win condition
+    
+    3 consecutive X's or O's in diagonal of board result in win
+    
+    Parameters
+    ----------
+    board: list
+        The board with X, O and unoccupied postion
+
+    Returns
+    -------
+    int
+        Player ID of the winner. 0 means no winner found.
+    '''
     # TODO: write docstring
     # TODO: implement function
     if (board[0] != 0 and
