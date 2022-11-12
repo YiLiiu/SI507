@@ -1,0 +1,22 @@
+Internal Node
+Is it bigger than a breadbox?
+Internal Node
+Is it gray?
+Leaf
+an elephant
+Internal Node
+Does it has wheels?
+Internal Node
+Can it fly?
+Leaf
+an airplane
+Leaf
+a car
+Leaf
+a tiger
+Internal Node
+Is it a cat?
+Leaf
+a cat
+Leaf
+a mouse
